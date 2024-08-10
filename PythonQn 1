@@ -1,0 +1,12 @@
+name=input("Enter your name \n")
+print(name)
+print("Type of input",type(name))
+print("Reverse of name:",name[::-1])
+print("Length of name:",len(name))
+print("Name in Uppercase:",name. upper())
+
+p=name[::-1]   #checking whether the name is palindrome or not
+if p==name :
+    print("palindrome")
+else :
+    print("not palindrome")   
